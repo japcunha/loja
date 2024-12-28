@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lojinha</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navbar show-menu">
+      <div class="header-inner-content show-menu">
+        <h1 class="logo">MY <span>STORE</span></h1>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+            <li>Conta</li>
+          </ul>
+        </nav>
+        <div class="nav-icon-container">
+          <img src="imgs/coffee.png" alt="cafe" />
+          <img src="imgs/coffee.png" class="menu-button">
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="header-inner-content">
+        <div class="header-bottom-side">
+        <div class="header-bottom-side-left">
+        
+      </div>
+      <h2>peça um café!</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum blanditiis impedit provident dolore ex iusto nam corrupti eaque, qui obcaecati suscipit nemo vitae, doloribus accusamus aliquid architecto error dicta quo.
+      </p>
+      <button>Ver Agora &#8594;</button>
+        </div>
+      <div class="header-bottom-side-right">
+      <img src="imgs/cafeteria exemplo.jpeg" alt="">>
+        </div>
+      </div>
+      </div>
+    </header>
+
+<!--main content-->
+
+
+    <script>
+      const navbar = document.querySelector(".navbar");
+      const menuButton = document.querySelector(".menu-button");
+
+      menuButton.addEventListener("click", () => {
+        navbar.classList.toggle("show-menu");
+      });
+
+    </script>
+  </body>
+</html>
